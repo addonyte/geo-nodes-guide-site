@@ -37,6 +37,12 @@ body {
   font-size: 1.1rem;
 }
 
+.hero .tagline {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* LAYOUT */
 .container {
   max-width: 860px;
@@ -136,3 +142,4 @@ footer .small {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
