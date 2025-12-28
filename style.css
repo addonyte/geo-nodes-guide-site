@@ -1,9 +1,9 @@
 :root {
-  --bg: #0f1115;
-  --panel: #161922;
-  --text: #e6e6eb;
-  --muted: #a0a4b8;
-  --accent: #5aa9ff;
+  --bg: #1c1e22;
+  --panel: #23262d;
+  --text: #e4e6eb;
+  --muted: #9aa0b3;
+  --accent: #4da3ff;
 }
 
 * {
@@ -19,9 +19,9 @@ body {
 }
 
 .hero {
-  padding: 4rem 1.5rem 3rem;
+  padding: 3.5rem 1.5rem 2.5rem;
   text-align: center;
-  background: linear-gradient(180deg, #141826, var(--bg));
+  background: linear-gradient(180deg, #23262d, var(--bg));
 }
 
 .hero h1 {
@@ -44,16 +44,29 @@ body {
 
 section {
   margin-bottom: 3rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--panel);
+  border-radius: 8px;
+}
+
+section + section {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-weight: 600;
 }
 
 h2 {
   margin-bottom: 0.75rem;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
+  font-weight: 500;
   color: var(--accent);
 }
 
 p {
-  max-width: 70ch;
+  max-width: 72ch;
+  color: var(--text);
 }
 
 .links {
@@ -69,12 +82,13 @@ p {
 .links a {
   color: var(--text);
   text-decoration: none;
-  border-bottom: 1px solid transparent;
+  padding: 0.1rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 .links a:hover {
-  border-color: var(--accent);
   color: var(--accent);
+  border-color: var(--accent);
 }
 
 footer {
@@ -91,3 +105,4 @@ footer .small {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
