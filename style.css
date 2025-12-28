@@ -18,6 +18,7 @@ body {
   line-height: 1.6;
 }
 
+/* HERO */
 .hero {
   padding: 3.5rem 1.5rem 2.5rem;
   text-align: center;
@@ -36,6 +37,7 @@ body {
   font-size: 1.1rem;
 }
 
+/* LAYOUT */
 .container {
   max-width: 860px;
   margin: 0 auto;
@@ -44,31 +46,60 @@ body {
 
 section {
   margin-bottom: 3rem;
-  padding: 1.5rem 1.75rem;
+  padding: 1.75rem;
   background: var(--panel);
   border-radius: 8px;
 }
 
-section + section {
-  margin-top: 2rem;
+/* ADDON SECTION */
+.addon {
+  background: linear-gradient(180deg, #1f2229, var(--panel));
 }
 
-h1 {
-  font-weight: 600;
+.addon h2 {
+  text-align: center;
+  font-size: 1.6rem;
 }
 
-h2 {
-  margin-bottom: 0.75rem;
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: var(--accent);
+.cta-links {
+  margin: 1.75rem 0;
+  text-align: center;
 }
 
-p {
-  max-width: 72ch;
+.cta-links a {
+  margin: 0 0.75rem;
   color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
 }
 
+.cta-links a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* FEATURE LIST */
+.features {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.features li {
+  margin-bottom: 0.5rem;
+}
+
+/* TEXT */
+.perfect-for,
+.requirements {
+  text-align: center;
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+/* LINKS LIST (SIDEBAR SECTIONS) */
 .links {
   list-style: none;
   padding: 0;
@@ -82,7 +113,6 @@ p {
 .links a {
   color: var(--text);
   text-decoration: none;
-  padding: 0.1rem 0;
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
@@ -91,6 +121,7 @@ p {
   border-color: var(--accent);
 }
 
+/* FOOTER */
 footer {
   text-align: center;
   padding: 2rem 1rem;
@@ -105,4 +136,3 @@ footer .small {
   font-size: 0.85rem;
   color: var(--muted);
 }
-
