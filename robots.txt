@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://addonyte.github.io/geo-nodes-guide-site/sitemap.xml
