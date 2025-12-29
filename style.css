@@ -95,7 +95,7 @@ section {
 
 /* ADDON IMAGE */
 .addon-image {
-  margin: 2.5rem auto 0;
+  margin: 2.5rem auto;
   text-align: center;
 }
 
@@ -177,6 +177,7 @@ footer .small {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
 
 
 
