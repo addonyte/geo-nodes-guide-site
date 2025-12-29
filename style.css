@@ -3,7 +3,7 @@
   --panel: #23262d;
   --text: #e4e6eb;
   --muted: #9aa0b3;
-  --accent: #4da3ff;
+  --accent: #F5792A;
 }
 
 * {
@@ -173,3 +173,4 @@ footer .small {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
