@@ -114,6 +114,10 @@ section {
   width: 680px;
 }
 
+/* Reduce space after screenshot image */
+.addon-image {
+  margin-bottom: 1.25rem;
+}
 
 /* FEATURE LIST */
 .features {
@@ -173,4 +177,5 @@ footer .small {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
 
