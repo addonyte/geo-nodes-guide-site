@@ -158,6 +158,21 @@ section {
   border-color: var(--accent);
 }
 
+/* Blender Community Badge */
+.blender-badge {
+  margin-bottom: 1rem;
+}
+
+.blender-badge img {
+  height: 40px;
+  width: auto;
+  opacity: 0.85;
+}
+
+.blender-badge img:hover {
+  opacity: 1;
+}
+
 /* FOOTER */
 footer {
   text-align: center;
@@ -173,4 +188,5 @@ footer .small {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
 
